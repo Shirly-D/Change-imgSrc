@@ -126,6 +126,14 @@ img {
   border-radius: 10%;
 }
 
+p {
+  width: 25%;
+  border: 1px solid #000;
+  border-radius: 20%;
+  margin: 45px auto;
+  font-size: 25px;
+  }
+
 
 
 
