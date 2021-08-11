@@ -2,8 +2,8 @@
 
 */
 
-var imgSrc = ['./images/pic1.jpg','./images/pic2.jpg','./images/pic3.jpg','./images/pic4.jpg','./images/pic5.jpg','./images/pic6.jpg',
-              './images/pic7.jpg','./images/pic8.jpg','./images/pic9.jpg','./images/pic10.jpg'];
+var imgSrc = ['assets/images/pic1.jpg','assets/images/pic2.jpg','assets/images/pic3.jpg','assets/images/pic4.jpg','assets/images/pic5.jpg','assets/images/pic6.jpg',
+              'assets/images/pic7.jpg','assets/images/pic8.jpg','assets/images/pic9.jpg','assets/images/pic10.jpg'];
 var imgIndex = 0;
 var image;
 
@@ -22,16 +22,6 @@ function nextImage() {
     }
 }
 
-// window.onload = function() {
-//     image = document.querySelector('.bannerImg');
-//     imgChange();
-//     console.log(onload);    
-// }
-
-window.onload = function(){
-    console.log
-    imgChange();
-}
 
 image = document.querySelector('.bannerImg');
 window.addEventListener('load', imgChange);
