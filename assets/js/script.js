@@ -9,9 +9,7 @@ var image;
 
 function imgChange() {
     setInterval(nextImage, 1000);
-    console.log(imgChange);
 }
-
 
 function nextImage() {
     image.src = imgSrc[imgIndex];
@@ -21,8 +19,6 @@ function nextImage() {
         imgIndex = imgIndex + 1;
     }
 }
-
-
 image = document.querySelector('.bannerImg');
 window.addEventListener('load', imgChange);
 
