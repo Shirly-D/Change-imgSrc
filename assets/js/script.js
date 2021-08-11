@@ -22,6 +22,14 @@ function nextImage() {
 image = document.querySelector('.bannerImg');
 window.addEventListener('load', imgChange);
 
+function time() {
+    var date = new Date();
+    var time = date.toLocaleTimeString();
+    document.querySelector('.time').textContent = time;
+}
+
+var digitalClock = setInterval(time, 1000);
+
 
 
 
